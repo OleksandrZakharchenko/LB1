@@ -1,0 +1,75 @@
+body {
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+	background-color: #fdf5e6;
+	
+}
+#wrapper {
+	width: 960px;
+	margin: 15px auto;
+	text-align: left;
+	background-color: #E6EEFD;
+}
+section {
+  min-height: calc(100vh - 150px);
+}
+footer {
+  height: 50px;
+}
+h1
+{
+	text-align: center;
+	font-family: Impact, fantasy;
+}
+h3
+{
+	text-align: center;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+nav
+{
+	font-family: Impact, fantasy;
+	padding-bottom: 2px;
+	
+
+}
+nav:hover
+{
+	box-shadow: 4px 4px 2px black;
+
+}
+p
+{
+	background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+    border: 1px solid #696969;
+    padding: 10px;
+  	border-radius: 10px;
+  	box-shadow: 2px 2px 1px black;
+	font-family: URW Chancery L, cursive;
+}
+
+ul
+{
+margin:0;
+padding:0;
+width: 100%;
+}
+li{
+	display: inline;
+	list-style: none;
+	padding: 20px;
+	margin-right: 5px;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+#tr_top
+{
+	background-color: green;
+}
+a
+{
+	color: black;
+}

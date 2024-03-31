@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>Практичне застосування елементів CSS</title>
+</head>
+<body>
+	<div id = "wrapper">
+	<header><h1><a href="main page.html">Сайт візитівка колобка</a></h1></header>
+	<nav>
+		<ul>
+			<li><a href="kazka.html">Казка</a></li>
+			<li><a href="video.html">Відео</a></li>
+			<li><a href="gallery.html">Галерея</a></li>
+			<li><a href="ekranizaciy.html">Екранізації</a></li>
+			<li><a href="obraz.html">Походження образу</a></li>
+			<li><a href="css.html">Практичне застосування елементів CSS</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h3>Практичне застосування елементів CSS</h3>
+		<p>
+			У цьому завданні я використовував такі стилі<br>
+			Застосовано стиль для тегу body, який обмежує ширину частини сайту з інформацією, застосовує колір для заднього фону та вирівнює текст за лівою стороною<br>
+			
+			body {<br>
+	width: 960px;<br>
+	margin: 15px auto;<br>
+	text-align: left;<br>
+	background-color: #fdf5e6;<br>
+	
+}<br>
+Наступні два стилі використовуються для того щоб footer знаходився внизу екрана<br>
+
+section {<br>
+  min-height: calc(100vh - 150px);<br>
+}<br>
+footer {<br>
+  height: 50px;<br>
+}<br>
+
+Стиль для тегу h1 <br>
+h1<br>
+{<br>
+	text-align: center;<br>
+	font-family: Impact, fantasy;<br>
+}<br>
+</p>
+<h1>Приклад стилю тега h1</h1>
+<p>
+Стиль для тегу h3 <br>
+h3<br>
+{<br>
+	text-align: center;<br>
+	font-family: Comic Sans MS, Comic Sans, cursive;<br>
+}<br>
+</p>
+<h3>Приклад стилю тега h3</h3>
+<p>
+Наступний стиль задає шрифт для меню навігації
+nav<br>
+{<br>
+	font-family: Impact, fantasy;<br>
+}<br> <br>
+Стиль для тегу p визначає його шрифт <br>
+p<br>
+{<br>
+	font-family: URW Chancery L, cursive;<br>
+}<br>
+
+Приклад стилю для тега p
+Наступні два теги визначають стиль для ненумерованого списку та роблять його горизонтальним<br>
+ul<br>
+{<br>
+margin:0;<br>
+padding:0;<br>
+width: 100%;<br>
+}<br>
+li{<br>
+	display: inline;<br>
+	list-style: none;<br>
+	padding: 20px;<br>
+	margin-right: 5px;<br>
+}<br>
+Вигляд стилю для списку
+<img src="image/nav.png" alt="navigation">
+Стилі нижче визначають вигляд таблиці<br>
+table, th, td {<br>
+  border: 1px solid;<br>
+}<br>
+#tr_top<br>
+{<br>
+	background-color: green;<br>
+}<br>
+a<br>
+{<br>
+	color: black;<br>
+}<br>
+<img src="image/table.png" alt="table"><br>
+Вигляд таблиці
+</p>
+</div>
+	</section>
+	<footer>Виконав роботу студент групи КБІКС 21-5 Захарченко Олександр</footer>
+</body>
+</html>
